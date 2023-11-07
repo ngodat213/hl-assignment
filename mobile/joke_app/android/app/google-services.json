@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "115276494788",
+    "project_id": "joke-hl-app",
+    "storage_bucket": "joke-hl-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115276494788:android:514c375d4ff7e794589691",
+        "android_client_info": {
+          "package_name": "com.example.joke_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVILMSq5pxYnYNmrF-hxiiKetyMtJr07s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
