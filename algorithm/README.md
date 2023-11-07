@@ -51,7 +51,7 @@ The general grading is such that
 
 Grade | What it means
 ------|------------------------
-A     | Above our standard
+**A     | Above our standard**
 B     | Met our standard
 C     | Not good enough
 D     | This is seriously not good
@@ -60,30 +60,30 @@ E     | Why should we hire you?
 
 The evaluation form for a coder is as below:
 ```
-Name:
-Date of Evaluation:
+Name:** Ngo Van Tien Dat**
+Date of Evaluation: 7/11/2023
 
-Completeness of project (%):
-Bonus completeness (%):
+Completeness of project (%): 98%
+Bonus completeness (%): 100%
 Overall Grade:
 
 Git Commits
 A – Great commit messages and structure
-B – Good commit messages and structure
+**B – Good commit messages and structure**
 C – Okay commit messages and structure
 D – Poor commit messages and strucuture
 E – No use of git
 
 Test Coverage
-A – Critical paths are covered
+**A – Critical paths are covered**
 B – Some critical paths are covered
 C – Few critical paths are covered
 D – Little or no test cases
 E – No test cases!!!
 
 Bouns:
-+ Count total of array
-+ Find min in array
-+ Find max in array
-+ Find even elements in array
-+ Find odd elements in array
+**+ Count total of array**
+**+ Find min in array**
+**+ Find max in array**
+**+ Find even elements in array**
+**+ Find odd elements in array**
