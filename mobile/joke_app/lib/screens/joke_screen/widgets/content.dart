@@ -11,17 +11,17 @@ class Content extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       color: AppColors.colorGreen,
-      padding: const EdgeInsets.only(top: 64, bottom: 50),
+      padding: const EdgeInsets.only(top: 50, bottom: 35),
       child: const Column(
         children: [
           Text(
             'A joke a day keeps the doctor away',
-            style: TextStyle(color: Colors.white, fontSize: 20),
+            style: TextStyle(color: Colors.white, fontSize: 18),
           ),
           SizedBox(height: 25),
           Text(
             'If you joke wrong way, your teeth have to pay. (Seriour)',
-            style: TextStyle(color: Colors.white, fontSize: 13),
+            style: TextStyle(color: Colors.white, fontSize: 11),
           )
         ],
       ),

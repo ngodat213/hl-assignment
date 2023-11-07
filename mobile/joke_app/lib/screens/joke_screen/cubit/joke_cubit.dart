@@ -40,25 +40,33 @@ class JokeCubit extends Cubit<JokeState> {
   }
 
   void voteForJoke(bool selection) async {
+    print("${state.hasVoted}, ${state.jokeCounter}");
     if (!state.hasVoted) {
       prefs!.setBool('hasVoted', true);
-      var data = {
-        "jokeId": state.jokes[state.jokeCounter].id,
-        "selection": selection.toString()
-      };
-      Api.addVote(data);
+
       DateTime now = DateTime.now();
       String formattedDate = DateFormat('yyyyMMdd').format(now);
       prefs!.setString('lastVoteDate', formattedDate);
 
       if (state.jokeCounter < state.jokes.length - 1) {
+        var data = {
+          "jokeId": state.jokes[state.jokeCounter].id,
+          "selection": selection.toString()
+        };
+        Api.addVote(data);
         emit(state.copyWith(jokeCounter: state.jokeCounter + 1));
       } else {
+        var data = {
+          "jokeId": state.jokes[state.jokeCounter].id,
+          "selection": selection.toString()
+        };
+        Api.addVote(data);
+        print('========================');
         DateTime tomorrow = DateTime.now().add(const Duration(days: 1));
         String tomorrowDate = DateFormat('yyyyMMdd').format(tomorrow);
         prefs!.setString('lastVoteDate', tomorrowDate);
 
-        emit(state.copyWith(hasVoted: true, jokeCounter: 0));
+        emit(state.copyWith(hasVoted: true));
       }
     }
   }

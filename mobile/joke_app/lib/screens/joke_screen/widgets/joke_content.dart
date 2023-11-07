@@ -5,10 +5,7 @@ import 'package:joke_app/screens/joke_screen/cubit/joke_cubit.dart';
 class JokeContent extends StatelessWidget {
   const JokeContent({
     super.key,
-    required this.jokeCounter,
   });
-
-  final int jokeCounter;
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +13,7 @@ class JokeContent extends StatelessWidget {
       builder: (context, state) {
         if (state.status == JokeStatus.success) {
           return Container(
-            padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 64),
+            padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 50),
             height: MediaQuery.of(context).size.height * 0.5,
             child: Text(
               state.jokes[state.jokeCounter].text,

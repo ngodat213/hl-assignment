@@ -18,8 +18,8 @@ class AnswerButton extends StatelessWidget {
       onTap: onTap,
       child: Container(
         color: bgColor,
-        width: 150,
-        padding: const EdgeInsets.symmetric(vertical: 16),
+        width: 130,
+        padding: const EdgeInsets.symmetric(vertical: 8),
         child: Center(
           child: Text(
             text,
