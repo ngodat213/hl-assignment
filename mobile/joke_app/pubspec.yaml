@@ -38,8 +38,6 @@ dependencies:
   shared_preferences: ^2.2.2
   intl: ^0.18.1
   fluttertoast: ^8.2.2
-  firebase_core: ^2.21.0
-  firebase_database: ^10.3.3
   http: ^1.1.0
   bloc: ^8.1.2
   flutter_bloc: ^8.1.3
