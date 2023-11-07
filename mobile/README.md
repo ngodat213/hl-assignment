@@ -46,7 +46,7 @@ The general grading is such that
 Grade | What it means
 ------|------------------------
 A     | Above our standard
-B     | Met our standard
+**B     | Met our standard**
 C     | Not good enough
 D     | This is seriously not good
 E     | Why should we hire you?
@@ -54,58 +54,58 @@ E     | Why should we hire you?
 
 The evaluation form for a coder is as below:
 ```
-Name:
-Date of Evaluation:
+Name: Ngo Van Tien Dat
+Date of Evaluation: 7/11/2023
 
-Completeness of project (%):
-Bonus completeness (%):
+Completeness of project (%): 85%
+Bonus completeness (%): 80%
 Overall Grade:
 
 Git Commits
 A – Great commit messages and structure
-B – Good commit messages and structure
+**B – Good commit messages and structure**
 C – Okay commit messages and structure
 D – Poor commit messages and strucuture
 E – No use of git
 
 Test Coverage
 A – Critical paths are covered
-B – Some critical paths are covered
+**B – Some critical paths are covered**
 C – Few critical paths are covered
 D – Little or no test cases
 E – No test cases!!!
 
 React Native
-A – Above minimum standard
+**A – Above minimum standard**
 B – Met all minimum standard
 C – Met some minimum standard
 D – Fail to meet minimum standard
 E – Disappointing standard
 
 Styling
-A – Well-structured and easy to read
+**A – Well-structured and easy to read**
 B – Readable and some structure
 C – Hard to read but can still understand
 D – Messy and very difficult to read
 E – Impossible to read and understand
 
 Javascript
-A – Well-structured and easy to read
+**A – Well-structured and easy to read**
 B – Readable and some structure
 C – Hard to read but can still understand
 D – Messy and very difficult to read
 E – Impossible to read and understand
 
-Difficulties faced by candidate:
+Difficulties faced by candidate: None
 
-Comments by tester:
+Comments by tester: The test is very good and useful, I have a lot of experience with this test
 ```
 
 ## Bonus Points
-+ Implemented design fully
-+ The app is mobile responsive.
-+ Joke is displayed
-+ Can deploy to somewhere
+**+ Implemented design fully**
+**+ The app is mobile responsive.**
+**+ Joke is displayed**
+**+ Can deploy to somewhere**
 + Eslint is set up
 
 ## Jokes Content
